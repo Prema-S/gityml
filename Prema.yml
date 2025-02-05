@@ -1,0 +1,9 @@
+name: Premakumari
+on: push  
+jobs:
+  test:
+      name: Lint Code base
+      runs-on: ubuntu-latest
+      steps:
+           - name: premakumari.sathiamurthy@straive.com
+             run: echo "Hello, world!"
